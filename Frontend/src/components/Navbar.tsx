@@ -11,7 +11,7 @@ import {
     UserIcon,
     XIcon,
 } from "lucide-react";
-import React, { useState } from "react";
+import { useState, type FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import { useAuth } from "../context/AuthContext";
@@ -23,7 +23,7 @@ const Navbar = () => {
     const [userMenuOpen, setUserMenuOpen] = useState(false);
     const navigate = useNavigate();
 
-    const handleSearch = (e) => {
+    const handleSearch = (e: FormEvent) => {
         e.preventDefault();
 
         if (searchQuery.trim()) {
