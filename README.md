@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/logo.png" alt="Nexora Logo" width="180" />
+  <img src="./Frontend/public/logo.png" alt="Nexora Logo" width="180" />
 </p>
 
 <h1 align="center">Nexora — Modern E-commerce Platform</h1>
