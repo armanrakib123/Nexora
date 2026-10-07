@@ -2,7 +2,7 @@
   <img src="./Frontend/public/logo.png" alt="Nexora Logo" width="180" />
 </p>
 
-<h1 align="center">Nexora — Modern E-commerce Platform</h1>
+<h1 align="center">Nexora</h1>
 
 Nexora is a modern, scalable e-commerce platform built with a **React.js frontend**, **Node.js + Express.js backend**, and **PostgreSQL database**. It is designed with a clean architecture, responsive UI, secure APIs, and a production-ready development approach.
 
